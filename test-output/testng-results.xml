@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-17T20:39:34 IST" name="Suite" finished-at="2024-08-17T20:41:16 IST" duration-ms="101989">
+    <groups>
+    </groups>
+    <test started-at="2024-08-17T20:39:34 IST" name="ErrorValidation Test" finished-at="2024-08-17T20:41:16 IST" duration-ms="101989">
+      <class name="BraggIndia.Tests.ErrorValidation">
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:BraggIndia.Tests.ErrorValidation@3ad2e17]" started-at="2024-08-17T20:39:35 IST" name="LaunchApplication" finished-at="2024-08-17T20:39:51 IST" duration-ms="16666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="ErrorMessageValidation(java.util.HashMap)[pri:0, instance:BraggIndia.Tests.ErrorValidation@3ad2e17]" started-at="2024-08-17T20:39:51 IST" name="ErrorMessageValidation" data-provider="getData" finished-at="2024-08-17T20:40:23 IST" duration-ms="31259" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=ff, username=fgf}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ErrorMessageValidation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:BraggIndia.Tests.ErrorValidation@3ad2e17]" started-at="2024-08-17T20:40:23 IST" name="teardown" finished-at="2024-08-17T20:40:25 IST" duration-ms="2520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:BraggIndia.Tests.ErrorValidation@3ad2e17]" started-at="2024-08-17T20:40:25 IST" name="LaunchApplication" finished-at="2024-08-17T20:40:48 IST" duration-ms="22971" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="ErrorMessageValidation(java.util.HashMap)[pri:0, instance:BraggIndia.Tests.ErrorValidation@3ad2e17]" started-at="2024-08-17T20:40:48 IST" name="ErrorMessageValidation" data-provider="getData" finished-at="2024-08-17T20:41:16 IST" duration-ms="27700" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=jhsj, username=kol}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ErrorMessageValidation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:BraggIndia.Tests.ErrorValidation@3ad2e17]" started-at="2024-08-17T20:41:16 IST" name="teardown" finished-at="2024-08-17T20:41:16 IST" duration-ms="418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- BraggIndia.Tests.ErrorValidation -->
+    </test> <!-- ErrorValidation Test -->
+  </suite> <!-- Suite -->
+</testng-results>
